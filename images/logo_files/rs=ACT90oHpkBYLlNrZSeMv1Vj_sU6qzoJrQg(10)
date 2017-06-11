@@ -1,0 +1,10 @@
+/* _GlobalPrefix_ */
+/* _Module_:oph */
+try{
+uv_I("oph");var uv_IU=function(a){this.T=!1;this.H=uv_V(uv_hs);this.R=uv_V(uv_is);this.S=uv_V(uv_js);this.U=a.W(this)};uv_f(uv_IU,uv_8l);uv_IU.prototype.bind=function(a,b,c,d){this.H.bindTo(a,d);this.R.bindTo(b,d);this.S.bindTo(c,d)};uv_IU.prototype.$=function(a){return a.getFeature()?!0:!1};
+uv_IU.prototype.W=function(a){var b=a.getFeature();if(b){a=a.lc;var c=this.R.get();if(c){var d=this.H.get();if(d){var e=this.S.get();if(e){uv_fs(a,"entity_click");var f=new uv_vn;uv_F(f,c);d=uv_lw(d,b);b=b.H;uv_hw(b,uv_o(c,8)?uv_es(c):null)?uv_C(f,8):uv_F(uv_Tv(f),b);e.Ec(d,f,null,a)}}}}};uv_IU.prototype.Na=function(a){uv_pm(this.H,a);uv_pm(this.R,a);uv_pm(this.S,a);this.U.dispose(a)};
+var uv_JU=function(a,b,c){b=new uv_IU(c);a(b)};var uv_KU=function(){uv_h.call(this)};uv_f(uv_KU,uv_l);uv_KU.prototype.initialize=function(){uv__("OPH",uv_JU)};uv_2(uv_KU);
+uv_H("oph");uv_J();
+}catch(e){_DumpException(e)}
+/* _GlobalSuffix_ */
+// Google Inc.

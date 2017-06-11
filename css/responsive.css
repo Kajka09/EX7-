@@ -1,0 +1,52 @@
+@media (max-width:768px) {
+	/* menu */
+	
+	#menu {
+		background-color: white;
+		transition: all 0.3s;
+	}
+	
+	#menu a.navbar-brand {
+		color: #0191da;
+	}
+	
+	#menu a.navbar-brand:hover {
+		color:#464646
+	}
+	
+	#menu ul.navbar-nav .menu-item a{
+		color: #0191da;
+	}
+
+	#menu ul.navbar-nav .menu-item a:hover {
+		color:#464646
+	}
+
+	
+	/* menu - zakonczenie */
+	
+	/* menu po scrollu */
+	
+	#menu.scroll .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+	}
+
+	#menu.scroll a.navbar-brand {
+	color:white;
+	}
+
+	#menu.scroll #main-menu a{
+	color:white;
+	} 
+
+	#menu.scroll a.navbar-brand:hover {
+	color:#464646;
+	}
+
+	#menu.scroll #main-menu a:hover {
+	color:#464646;
+	} 
+	/* menu po scrollu */
+	
+}
+	
