@@ -1,16 +1,3 @@
-$("#get-data").click(function(){
-		//pierwszy sposób $.getJSON
-		var connectionTest = $.getJSON("http://rt.ex7.pl/ping", function(data){
-			
-		});
-		$.post("http://rt.ex7.pl/get-data",
-			  function(data){
-			
-			
-		})
-		
-});
-
 $(function () {
 	'use strict';
 
